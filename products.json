@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Marcadores color",
+    "price": 1200,
+    "thumbnail": "https://images.pexels.com/photos/1152665/pexels-photo-1152665.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "id": 1
+  },
+  {
+    "title": "Cuaderno N°3",
+    "price": 500,
+    "thumbnail": "https://images.pexels.com/photos/236111/pexels-photo-236111.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "id": 2
+  },
+  {
+    "title": "Microfibras",
+    "price": 1000,
+    "thumbnail": "https://images.pexels.com/photos/998591/pexels-photo-998591.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+    "id": 3
+  }
+]
