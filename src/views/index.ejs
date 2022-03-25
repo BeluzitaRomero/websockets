@@ -22,7 +22,7 @@
         <label for="price" class="form-label" style="font-size: 1.5rem;">Precio</label>
         <input
           type="number"
-          name="number"
+          name="price"
           class="form-control"
           id="price"
           placeholder="0000"
@@ -32,7 +32,7 @@
       </div>
       <div class="mb-3">
         <label for="thumbnail" class="form-label" style="font-size: 1.5rem;">Imagen URL</label>
-        <input type="text" name="text" class="form-control" id="thumbnail" placeholder="http://..." style="background: none;border: none;
+        <input type="text" name="thumbnail" class="form-control" id="thumbnail" placeholder="http://..." style="background: none;border: none;
         border-bottom: 2px solid rgb(228, 228, 228); color:white"/>
       </div>
       <button type="submit" class="btn btn-primary">Enviar</button>
@@ -104,7 +104,7 @@
       const addProd = () => {
         let product = {
           title: document.getElementById("product").value,
-          price: document.getElementById("price").Number(value),
+          price: document.getElementById("price").parseInt(value),
           thumbnail: document.getElementById("thumbnail").value,
         };
 
