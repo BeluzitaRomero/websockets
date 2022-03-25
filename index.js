@@ -60,6 +60,7 @@ io.on("connection", async (socket) => {
 
   socket.on("addProducts", async (data) => {
     await container.save(data);
+    console.log("producto que llega al back:", data);
     io.sockets.emit("sendProducts", await container.getAll());
   });
 
@@ -72,7 +73,7 @@ io.on("connection", async (socket) => {
   });
 });
 
-const port = 8081;
+const port = process.env.PORT || 8080;
 server.listen(port, () => {
   console.log(`Server escuchando al puerto ${port}`);
 });
